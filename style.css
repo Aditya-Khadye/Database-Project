@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(134, 204, 228);
+    /* background-image: url("background.png"); */
+    display: flex;
+    justify-content: center;
+}
+
+.container--one {
+    background-color: white;
+    height: 650px;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.database--form {
+    display: flex;
+    flex-direction: column;
+}
+
+.database--form > button {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 500px) {
+    
+    .container--one {
+        background-color: blue;
+    }
+}
+
